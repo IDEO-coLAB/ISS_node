@@ -1,0 +1,25 @@
+{
+  "name": "iss-nomad-node",
+  "nomadName": "ISS Current Location",
+  "version": "1.0.0",
+  "description": "The latitude and longitutde of the ISS",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node --presets es2015 index.js",
+    "start2": "babel-node --presets es2015 index2.js"
+  },
+  "keywords": [],
+  "author": "Albert Kim",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-preset-es2015": "^6.22.0",
+    "moment": "^2.17.1",
+    "nomad-stream": "0.0.8"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-stage-0": "^6.22.0"
+  }
+}
